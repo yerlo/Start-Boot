@@ -1,0 +1,50 @@
+body{
+	
+	color: white;
+
+}
+
+#barra-menu{
+	background: rgb(44, 62, 80);
+
+	}
+
+#sec-1{
+	padding-top: 100px;
+	background: rgb(32, 201, 151);
+	padding-bottom: 100px;
+}
+
+#sec-2{
+	color: rgb(44, 62, 80);
+	padding-top:  25px;
+	padding-bottom: 100px;
+}
+
+
+
+#sec-3{
+	background:  rgb(32, 201, 151);
+	padding-bottom: 60px;
+}
+
+#sec-4{
+	color: rgb(44, 62, 80);
+	padding-bottom: 50px;
+}
+
+#sec-5{
+	background: rgb(44, 62, 80);
+
+}
+
+li a{
+	color: white;
+}
+
+#sec-6{
+	background: rgb(26, 37, 47);
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
