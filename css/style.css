@@ -148,8 +148,14 @@
   padding-bottom: 32px;
 }
 #sec-4 input, #sec-4 textarea {
+  padding-bottom: 16px;
+  box-shadow: none;
   border: none;
   border-bottom: 1px solid rgba(71, 100, 129, 0.3);
+}
+#sec-4 input::placeholder, #sec-4 textarea::placeholder {
+  font-size: 24px;
+  color: rgba(58, 82, 106, 0.8);
 }
 #sec-4 button {
   padding: 20px 25px;
