@@ -13,18 +13,7 @@ $color2: rgb(32, 201, 151);
 		box-shadow: none;
 	}
 
-	.container{
-
-		    @media (min-width: 1018px){
-				width: 970px;
-			}
-            @media (min-width: 799px){
-				width: 750px;
-			}
-		}
-
-
-    button{
+	button{
         background: none;
 
         &:hover{

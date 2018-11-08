@@ -6,16 +6,6 @@
   border: none;
   box-shadow: none;
 }
-@media (min-width: 1018px) {
-  #barra-menu .container {
-    width: 970px;
-  }
-}
-@media (min-width: 799px) {
-  #barra-menu .container {
-    width: 750px;
-  }
-}
 #barra-menu button {
   background: none;
 }
