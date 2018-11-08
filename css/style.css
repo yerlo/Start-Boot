@@ -8,6 +8,7 @@
 }
 #barra-menu button {
   background: none;
+  transition: 0.2s;
 }
 #barra-menu button:hover {
   border: 1px solid #20c997;
@@ -23,9 +24,8 @@
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 32px;
-  text-transform: uppercase;
 }
-@media (max-width: 1018px) {
+@media (max-width: 991px) {
   #barra-menu a {
     font-size: 20px;
   }
@@ -50,7 +50,6 @@
   color: white;
 }
 #sec-1 h1 {
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 80px;
 }
@@ -78,7 +77,6 @@
 }
 #sec-2 h2 {
   font-size: 48px;
-  text-transform: uppercase;
   font-weight: bold;
 }
 @media (max-width: 991px) {
@@ -120,7 +118,6 @@
   margin-bottom: 16px;
   font-weight: bold;
   font-size: 48px;
-  text-transform: uppercase;
   color: #31465a;
 }
 @media (max-width: 991px) {
@@ -173,7 +170,6 @@
 #sec-3 h2 {
   font-weight: bold;
   font-size: 48px;
-  text-transform: uppercase;
 }
 @media (max-width: 991px) {
   #sec-3 h2 {
@@ -212,7 +208,6 @@
 }
 #sec-4 h2 {
   font-size: 48px;
-  text-transform: uppercase;
   font-weight: bold;
 }
 @media (max-width: 991px) {
@@ -254,7 +249,6 @@
 }
 #sec-5 h2 {
   font-size: 24px;
-  text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 16px;
 }
@@ -263,22 +257,27 @@
     font-size: 24px;
   }
 }
-#sec-5 li {
-  width: 40px;
-  margin-right: 5px;
+#sec-5 ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+#sec-5 ul li {
+  width: 56px;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 2px solid white;
   transition: 0.3s;
 }
-#sec-5 li:hover {
+#sec-5 ul li:hover {
   background: white;
 }
-#sec-5 li:hover a {
+#sec-5 ul li:hover a {
   color: black;
 }
-#sec-5 li a {
+#sec-5 ul li a {
+  align-self: center;
   display: inline-block;
-  padding-top: 2px;
+  padding: 8px 0px;
   color: white;
   font-size: 24px;
 }

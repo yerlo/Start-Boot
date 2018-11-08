@@ -2,6 +2,7 @@
 
 $color1: rgb(44, 62, 80);
 $color2: rgb(32, 201, 151);	
+$color3: rgb(26, 37, 47);
 
 
 #barra-menu{
@@ -15,6 +16,7 @@ $color2: rgb(32, 201, 151);
     
     button{
         background: none;
+        transition: 0.2s;
 
         &:hover{
         	border: 1px solid $color2;
@@ -35,9 +37,9 @@ $color2: rgb(32, 201, 151);
 		font-weight: bold;
 		letter-spacing: 1px;
 		font-size: 32px;
-		text-transform: uppercase;
+		
 
-		@media (max-width: 1018px){
+		@media (max-width: 991px){
 		font-size: 20px;
 	   }
 
@@ -66,7 +68,6 @@ $color2: rgb(32, 201, 151);
 	color: white;
 
      h1{
-		text-transform: uppercase;
 		font-weight: bold;
 		font-size: 80px;
 
@@ -96,7 +97,6 @@ $color2: rgb(32, 201, 151);
 	
 	h2{
 		font-size: 48px;
-	    text-transform: uppercase;
 	    font-weight: bold;
 
 	    @media (max-width: 991px){
@@ -150,7 +150,6 @@ $color2: rgb(32, 201, 151);
 	 margin-bottom: 16px;
 	 font-weight: bold;
 	 font-size: 48px;
-	 text-transform: uppercase;
 	 color: lighten($color1, 3%);
 
 
@@ -219,9 +218,8 @@ $color2: rgb(32, 201, 151);
 	h2{
 	 font-weight: bold;
 	 font-size: 48px;
-	 text-transform: uppercase;
-
-	    @media (max-width: 991px){
+	 
+     @media (max-width: 991px){
 		    font-size: 40px;
 	    }
 	}
@@ -264,7 +262,6 @@ $color2: rgb(32, 201, 151);
 
 	h2{
 		font-size: 48px;
-	    text-transform: uppercase;
 	    font-weight: bold;
 
 	    @media (max-width: 991px){
@@ -314,7 +311,6 @@ $color2: rgb(32, 201, 151);
 
 	h2{
 		font-size: 24px;
-	    text-transform: uppercase;
 	    font-weight: bold;
 	    padding-bottom: 16px;
 
@@ -323,29 +319,35 @@ $color2: rgb(32, 201, 151);
 	    }
 	}
 
-	li{
-		width: 40px;
-		margin-right: 5px;
-		border-radius: 50%;
-		border: 1px solid white;
-		transition: 0.3s;
+	ul{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
 
-		&:hover{
+        li{
+        width: 56px;
+        border-radius: 50%;
+        border: 2px solid white;
+        transition: 0.3s;
 
-			background: white;
-		}
+        &:hover{
 
-		&:hover a{
-			color: black;
-		}
-	
-	   a{
-		 display: inline-block;
-		 padding-top: 2px;
-		 color: white;
-		 font-size: 24px;
-	    }
+            background: white;
+        }
+
+        &:hover a{
+            color: black;
+        }
+    
+       a{
+         align-self: center;
+         display: inline-block;
+         padding: 8px 0px;
+         color: white;
+         font-size: 24px;
+        }
     }
+}
 
     address{
     	font-size: 16px;
@@ -375,7 +377,7 @@ $color2: rgb(32, 201, 151);
 
 #sec-6{
 	color: white;
-	background: rgb(26, 37, 47);
+	background: $color3;
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
