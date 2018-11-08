@@ -40,6 +40,7 @@
 }
 #barra-menu li a:hover {
   color: #20c997;
+  text-decoration: line-through;
 }
 
 #sec-1 {
@@ -299,6 +300,7 @@
 }
 #sec-5 p a:hover {
   color: #199d76;
+  text-decoration: line-through;
 }
 
 #sec-6 {

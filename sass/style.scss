@@ -12,8 +12,8 @@ $color2: rgb(32, 201, 151);
 		border: none;
 		box-shadow: none;
 	}
-
-	button{
+    
+    button{
         background: none;
 
         &:hover{
@@ -31,7 +31,7 @@ $color2: rgb(32, 201, 151);
 	}
 
 	a{
-		color: white;
+        color: white;
 		font-weight: bold;
 		letter-spacing: 1px;
 		font-size: 32px;
@@ -39,7 +39,7 @@ $color2: rgb(32, 201, 151);
 
 		@media (max-width: 1018px){
 		font-size: 20px;
-	}
+	   }
 
 	}
 	li{
@@ -52,6 +52,7 @@ $color2: rgb(32, 201, 151);
 
 			&:hover{
 				color: $color2;
+                text-decoration: line-through;
 			}
 		}
 	}
@@ -362,7 +363,8 @@ $color2: rgb(32, 201, 151);
 		 color: $color2;
 
 		 &:hover{
-		 	color: darken($color2, 10%)
+		 	color: darken($color2, 10%);
+            text-decoration: line-through;
 		 }
 		}
     }
